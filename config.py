@@ -24,11 +24,11 @@ BOT_OWNER = "5993754833"
 # Sudo users IDs, They are admins everywhere
 SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
 # Your Bot's Username without "@"
-BOT_USERNAME = os.environ.get("BOT_USERNAME")
+BOT_USERNAME = "MessRosse_bot"
 # Your MongoDB url
 DATABASE_URL = os.environ.get("DATABASE_URL")
 # Your Log Channel! Make a private channel and get it's ID
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL"))
+LOG_CHANNEL = -1001951928656
 # If you need to broadcast messages as a copy or Forwarded Message
 BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
 # Thumbnail URL
