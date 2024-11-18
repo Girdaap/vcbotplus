@@ -10,17 +10,17 @@ from helpers.modhelps import fetch_heroku_git_url
 load_dotenv()
 
 SESSION_NAME = getenv("SESSION_NAME", "session")
-BOT_TOKEN = getenv("8112965898:AAFdOTkoO5UNvd0nacuondmbLjP25KkmCjY")
+BOT_TOKEN = "8112965898:AAFdOTkoO5UNvd0nacuondmbLjP25KkmCjY"
 
-API_ID = int(getenv("22454736"))
-API_HASH = getenv("012c79e51585cb2373a81adafb6159cb")
+API_ID = "22454736"
+API_HASH = "012c79e51585cb2373a81adafb6159cb"
 
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "7"))
 
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ !").split())
 
 # Your Telegram User ID
-BOT_OWNER = int(os.environ.get("5993754833"))
+BOT_OWNER = "5993754833"
 # Sudo users IDs, They are admins everywhere
 SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
 # Your Bot's Username without "@"
